@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Bugfixes
+
+- Race condition after discarding a transaction
+
 ## Release 1.4.5 (2017-11-08)
 
 ### Features
