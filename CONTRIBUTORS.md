@@ -12,6 +12,7 @@ The following is a list of people who have contributed to
 - Christoph Tavan <dev@tavan.de>
 - Dana Powers <dana.powers@rd.io>
 - Dan Bravender <dan.bravender@gmail.com>
+- Dolan Murvihill <dmurvihill@everquote.com>
 - dgvncsz0f <dsouza@c0d3.xxx>
 - Evgeny Tataurov <tatauroff@gmail.com>
 - Gleicon Moraes <gleicon@gmail.com>

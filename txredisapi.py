@@ -1524,8 +1524,11 @@ class BaseRedisProtocol(LineReceiver, policies.TimeoutMixin):
             raise RedisError("Not in transaction")
         self.post_proc = []
         self.transactions = 0
+        return self.execute_command("DISCARD").addBoth(self._finish_discard)
+
+    def _finish_discard(self, response):
         self._clear_txstate()
-        return self.execute_command("DISCARD")
+        return response
 
     # Returns a proxy that works just like .multi() except that commands
     # are simply buffered to be written all at once in a pipeline.
